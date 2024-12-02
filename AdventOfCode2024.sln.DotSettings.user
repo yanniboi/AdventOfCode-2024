@@ -5,5 +5,6 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayOne&lt;/TestId&gt;
     &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayTwo&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayThree&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
