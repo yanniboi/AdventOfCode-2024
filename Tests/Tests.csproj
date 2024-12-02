@@ -19,13 +19,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\DayOne\DayOne.csproj" />
+      <ProjectReference Include="..\DayTwo\DayTwo.csproj" />
     </ItemGroup>
-
-    <ItemGroup>
-      <None Include="bin\Debug\net8.0\challenge\input.txt" />
-      <None Include="bin\Debug\net8.0\example\input.txt" />
-      <None Include="bin\Debug\net8.0\input.txt" />
-      <None Include="obj\Debug\net8.0\input.txt" />
-    </ItemGroup>
-
 </Project>

@@ -2,8 +2,6 @@ using Shouldly;
 
 namespace Tests;
 
-
-
 [TestClass]
 public class UnitTestDayOne
 {

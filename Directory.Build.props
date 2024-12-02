@@ -1,0 +1,8 @@
+<Project>
+    <PropertyGroup>
+        <DirectoryBuildPropsLoaded>true</DirectoryBuildPropsLoaded>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="$(MSBuildThisFileDirectory)inputs\**" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+</Project>

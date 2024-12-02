@@ -15,7 +15,7 @@ public class Program
 
     public static int RunExample(int step = 1)
     {
-        var lists = ParseInput("example/input.txt");
+        var lists = ParseInput("day-1/example/input.txt");
 
         var listOne = lists.Item1;
         var listTwo = lists.Item2;
@@ -33,7 +33,7 @@ public class Program
 
     private static int RunChallenge()
     {
-        var lists = ParseInput("challenge/input.txt");
+        var lists = ParseInput("day-1/challenge/input.txt");
 
         var listOne = lists.Item1;
         var listTwo = lists.Item2;
