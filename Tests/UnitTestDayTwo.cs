@@ -16,6 +16,6 @@ public class UnitTestDayTwo
     public void TestExamplePart2()
     {
         var result = DayTwo.Program.RunExample(2);
-        result.ShouldBe(2);
+        result.ShouldBe(4);
     }
 }
