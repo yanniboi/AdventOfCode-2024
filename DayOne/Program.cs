@@ -31,7 +31,7 @@ public class Program
 
     }
 
-    private static int RunChallenge()
+    public static int RunChallenge(int step = 1)
     {
         var lists = ParseInput("day-1/challenge/input.txt");
 
@@ -41,7 +41,10 @@ public class Program
         listOne.Sort();
         listTwo.Sort();
 
-        // return GetDifferenceScore(listOne, listTwo);
+        if (step == 1)
+        {
+            return GetDifferenceScore(listOne, listTwo);
+        }
         return GetSimilarityScore(listOne, listTwo);
     }
 
