@@ -1,84 +1,39 @@
-﻿namespace DayFour;
+﻿namespace AdventOfCode.Challenges;
 
-public class Program
+public class Day4 : BaseChallenge
 {
-    private static bool _debug = false;
+    private Dictionary<Tuple<int, int>, char> _grid = new Dictionary<Tuple<int, int>, char>();
+    private Dictionary<Tuple<int, int>, int> _founds = new Dictionary<Tuple<int, int>, int>();
+    private Dictionary<Tuple<int, int>, int> _foundsUp = new Dictionary<Tuple<int, int>, int>();
+    private Dictionary<Tuple<int, int>, int> _foundsDown = new Dictionary<Tuple<int, int>, int>();
+    private int _totalX = 0;
+    private int _totalY = 0;
 
-    private static int _step = 2;
-    private static bool _example = false;
-    private static int _total = 0;
-    
-    private static Dictionary<Tuple<int, int>, char> _grid = new Dictionary<Tuple<int, int>, char>();
-    private static Dictionary<Tuple<int, int>, int> _founds = new Dictionary<Tuple<int, int>, int>();
-    private static Dictionary<Tuple<int, int>, int> _foundsUp = new Dictionary<Tuple<int, int>, int>();
-    private static Dictionary<Tuple<int, int>, int> _foundsDown = new Dictionary<Tuple<int, int>, int>();
-    private static int _totalX = 0;
-    private static int _totalY = 0;
 
-    static void Main(string[] args)
+    protected override string GetExampleFilePath()
     {
-        Console.WriteLine("Day 4 challenge:");
-
-        int result;
-        if (_example)
-        {
-           result = RunExample(_step);
-        }
-        else
-        {
-            result = RunChallenge(_step);
-        }
-
-        Console.WriteLine("The answer is: " + result);
+        return Path.Combine(AppContext.BaseDirectory, "day-4/example/input.txt");
     }
 
-    public static int RunExample(int step)
+    protected override string GetChallengeFilePath()
     {
-        _total = 0;
-        _step = step;
-        _grid = new Dictionary<Tuple<int, int>, char>();
-        _founds = new Dictionary<Tuple<int, int>, int>();
-        _foundsUp = new Dictionary<Tuple<int, int>, int>();
-        _foundsDown = new Dictionary<Tuple<int, int>, int>();
-        _total = 0;
-        _totalY = 0;
-        Console.WriteLine("Running Example");
-        var filePath = Path.Combine(AppContext.BaseDirectory, "day-4/example/input.txt");
-        return Run(filePath);
+        return Path.Combine(AppContext.BaseDirectory, "day-4/challenge/input.txt");
     }
 
-    public static int RunChallenge(int step)
+    protected override void SolveStep1()
     {
-        _total = 0;
-        _step = step;
-        _grid = new Dictionary<Tuple<int, int>, char>();
-        _founds = new Dictionary<Tuple<int, int>, int>();
-        _foundsUp = new Dictionary<Tuple<int, int>, int>();
-        _foundsDown = new Dictionary<Tuple<int, int>, int>();
-        _totalX = 0;
-        _totalY = 0;
-        Console.WriteLine("Running Challenge");
-        var filePath = Path.Combine(AppContext.BaseDirectory, "day-4/challenge/input.txt");
-        return Run(filePath);
+        // Do something.
+        FindXmas();
     }
 
-    public static int Run(string filePath)
+    protected override void SolveStep2()
     {
-        ParseInput(filePath);
-
-            if (_step == 1)
-            {
-                FindXmas();
-            }
-            else
-            {
-                FindMasX();
-            }
-
-        return _total;
+        // Do something.
+        FindMasX();
     }
 
-    private static void FindXmas()
+
+    private void FindXmas()
     {
         var vectors = new[]
         {
@@ -95,7 +50,7 @@ public class Program
         Log(_total.ToString());
     }
 
-    private static void FindMasX()
+    private void FindMasX()
     {
         var vectors = new[]
         {
@@ -118,7 +73,7 @@ public class Program
         }
     }
 
-    private static void FindByVector(string search, int[][] vectors)
+    private void FindByVector(string search, int[][] vectors)
     {
         int found = 0;
         var searchLength = search.Length;
@@ -214,7 +169,7 @@ public class Program
         }
     }
 
-    private static void ParseInput(string filePath)
+    protected override void ParseInput(string filePath)
     {
         var lines = File.ReadAllLines(filePath);
 
@@ -230,14 +185,6 @@ public class Program
                 char c = line[x];
                 _grid.Add(new Tuple<int, int>(x, y), c);
             }
-        }
-    }
-
-    private static void Log(string log)
-    {
-        if (_debug)
-        {
-            Console.WriteLine(log);
         }
     }
 }

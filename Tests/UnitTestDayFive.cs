@@ -4,21 +4,21 @@ using Shouldly;
 namespace Tests;
 
 [TestClass]
-public class UnitTestDayFour
+public class UnitTestDayFive
 {
     [TestMethod]
     public void TestExamplePart1()
     {
-        var challenge = new Day4();
+        var challenge = new Day5();
         var result = challenge.RunExample(1);
-        result.ShouldBe(18);
+        result.ShouldBe(0);
     }
 
     [TestMethod]
     public void TestExamplePart2()
     {
-        var challenge = new Day4();
+        var challenge = new Day5();
         var result = challenge.RunExample(2);
-        result.ShouldBe(9);
+        result.ShouldBe(0);
     }
 }
