@@ -1,3 +1,9 @@
+### Usage
+
+- `./create_challenge.sh 6` - Add a new challenge
+- `dotnet test` - Run tests
+- `dotnet run --project Solver` - Run the solver project
+
 ### Setup new day
 
 - Create new project
