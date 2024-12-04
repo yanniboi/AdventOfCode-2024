@@ -9,13 +9,13 @@ public class UnitTestDayFour
     public void TestExamplePart1()
     {
         var result = DayFour.Program.RunExample(1);
-        result.ShouldBe(1);
+        result.ShouldBe(18);
     }
 
     [TestMethod]
     public void TestExamplePart2()
     {
         var result = DayFour.Program.RunExample(2);
-        result.ShouldBe(1);
+        result.ShouldBe(9);
     }
 }
