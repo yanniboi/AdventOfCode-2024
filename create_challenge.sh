@@ -74,17 +74,49 @@ public class UnitTestDay<DAY_NO_ZERO>
 }
 '
 
+test_challenge_template='
+using AdventOfCode.Challenges;
+using Shouldly;
+
+namespace Tests.ChallengeTests;
+
+[TestClass]
+public class UnitTestDay<DAY_NO_ZERO>Challenge
+{
+    [TestMethod]
+    public void TestChallengePart1()
+    {
+        var challenge = new Day<DAY_NO_ZERO>();
+        var result = challenge.RunChallenge(1);
+        result.ShouldBe(<DAY_NO_ZERO>);
+    }
+
+    [TestMethod]
+    public void TestChallengePart2()
+    {
+        var challenge = new Day<DAY_NO_ZERO>();
+        var result = challenge.RunChallenge(2);
+        result.ShouldBe(<DAY_NO_ZERO>);
+    }
+}
+'
+
 # Replace placeholders in the templates
 challenge_content="${challenge_template//<DAY>/$day}"
 challenge_content="${challenge_template//<DAY_NO_ZERO>/$day_no_zero}"
 test_content="${test_template//<DAY>/$day}"
 test_content="${test_content//<DAY_NO_ZERO>/$day_no_zero}"
+test_challenge_content="${test_challenge_template//<DAY>/$day}"
+test_challenge_content="${test_challenge_template//<DAY_NO_ZERO>/$day_no_zero}"
+
 
 # Define the output directories and files
 challenge_dir="Challenges"
 challenge_file="$challenge_dir/Day${day_no_zero}.cs"
 test_dir="Tests"
 test_file="$test_dir/UnitTestDay${day_no_zero}.cs"
+test_challenge_dir="Tests/ChallengeTests"
+test_challenge_file="$test_challenge_dir/UnitTestDay${day_no_zero}Challenge.cs"
 inputs_example_dir="inputs/day-${day_no_zero}/example"
 inputs_challenge_dir="inputs/day-${day_no_zero}/challenge"
 inputs_example_file="$inputs_example_dir/input.txt"
@@ -93,15 +125,18 @@ inputs_challenge_file="$inputs_challenge_dir/input.txt"
 # Create directories if they don't exist
 mkdir -p "$challenge_dir"
 mkdir -p "$test_dir"
+mkdir -p "$test_challenge_dir"
 mkdir -p "$inputs_example_dir"
 mkdir -p "$inputs_challenge_dir"
 
 # Write the class and test content to their respective files
 echo "$challenge_content" > "$challenge_file"
 echo "$test_content" > "$test_file"
+echo "$test_challenge_content" > "$test_challenge_file"
 echo "1" > "$inputs_example_file"
 echo "1" > "$inputs_challenge_file"
 
 echo "Created challenge file: $challenge_file"
 echo "Created test file: $test_file"
+echo "Created test challenge file: $test_challenge_file"
 echo "Created input files."
