@@ -44,9 +44,9 @@ public abstract class BaseChallenge : IChallenge
     protected abstract void SolveStep1();
     protected abstract void SolveStep2();
 
-    protected virtual void ParseInput(string filePath)
+    public virtual void ParseInput(string filePath)
     {
-        var _rawLines = File.ReadAllLines(filePath);
+        _rawLines = File.ReadAllLines(filePath);
 
         // More parsing?
     }

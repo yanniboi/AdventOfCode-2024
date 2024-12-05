@@ -169,7 +169,7 @@ public class Day4 : BaseChallenge
         }
     }
 
-    protected override void ParseInput(string filePath)
+    public override void ParseInput(string filePath)
     {
         var lines = File.ReadAllLines(filePath);
 
