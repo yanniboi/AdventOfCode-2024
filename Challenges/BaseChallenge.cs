@@ -2,7 +2,7 @@
 
 public abstract class BaseChallenge : IChallenge
 {
-    private static bool _debug = false;
+    private static bool _debug = true;
 
     protected int _step = 1;
     protected int _total = 0;

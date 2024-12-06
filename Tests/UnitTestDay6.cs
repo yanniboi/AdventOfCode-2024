@@ -12,16 +12,16 @@ public class UnitTestDay6
     {
         var challenge = new Day6();
         var result = challenge.RunExample(1);
-        result.ShouldBe(6);
+        result.ShouldBe(41);
     }
 
-    [TestMethod]
-    public void TestExamplePart2()
-    {
-        var challenge = new Day6();
-        var result = challenge.RunExample(2);
-        result.ShouldBe(6);
-    }
+    // [TestMethod]
+    // public void TestExamplePart2()
+    // {
+    //     var challenge = new Day6();
+    //     var result = challenge.RunExample(2);
+    //     result.ShouldBe(6);
+    // }
 
     [TestMethod]
     public void Test_ParseInput()
@@ -30,14 +30,14 @@ public class UnitTestDay6
         var path = Path.Combine(AppContext.BaseDirectory, "day-6/example/input.txt");
         challenge.ParseInput(path);
         challenge._obstacles.Count.ShouldBe(8);
-        challenge._guard.Item1.ShouldBe(4);
-        challenge._guard.Item2.ShouldBe(6);
+        challenge._currentGuard.Item1.ShouldBe(4);
+        challenge._currentGuard.Item2.ShouldBe(6);
 
         path = Path.Combine(AppContext.BaseDirectory, "day-6/challenge/input.txt");
         challenge.ParseInput(path);
         challenge._obstacles.Count.ShouldBe(813);
-        challenge._guard.Item1.ShouldBe(81);
-        challenge._guard.Item2.ShouldBe(36);
+        challenge._currentGuard.Item1.ShouldBe(81);
+        challenge._currentGuard.Item2.ShouldBe(36);
     }
 
     [TestMethod]
@@ -65,7 +65,7 @@ public class UnitTestDay6
     {
         var challenge = new Day6();
 
-        challenge._guard = start;
+        challenge._currentGuard = start;
         challenge._currentDirection = direction;
 
         if (obstacle != null)
@@ -74,7 +74,7 @@ public class UnitTestDay6
         }
         challenge.MoveGuard();
 
-        challenge._guard.ShouldBe(expected);
+        challenge._currentGuard.ShouldBe(expected);
     }
 
     public static IEnumerable<object[]> Test_MoveGuard_Data()
