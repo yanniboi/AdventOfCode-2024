@@ -8,9 +8,10 @@
     &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFiveChallenge.TestExamplePart2&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1f43aebe_002D469d_002D4789_002Dab1f_002D093638a1a199/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_FixPageOrderChallenge" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1f43aebe_002D469d_002D4789_002Dab1f_002D093638a1a199/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_FixPageOrderChallenge" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_FixPageOrderChallenge&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_ParseInput&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2b9b4f65_002D70df_002D491c_002D89ca_002D9aaaafd2fb45/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExamplePart1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
@@ -22,6 +23,11 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4e753855_002D9984_002D4b54_002D98bc_002D74c628c0f8ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExamplePart2 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFiveChallenge.TestExamplePart2&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=745a0696_002D0e76_002D4354_002Dbca2_002D35bd312d5611/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_MoveGuard" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_MoveGuard&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=be7700a1_002D7959_002D4be2_002D9e6b_002D05d008ee5ed4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UnitTest1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
@@ -43,9 +49,16 @@
     &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_FixPageOrderChallenge&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea31971d_002Dd56b_002D467b_002Da19f_002D70c37e177150/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_ParseInput" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_ParseInput&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_MoveGuard&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=efa8ea14_002D7fc4_002D47ff_002Da70f_002D4f6e9d71c15f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExamplePart2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFiveChallenge.TestExamplePart2&lt;/TestId&gt;
     &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.TestExamplePart2&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_ParseInput&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
