@@ -43,6 +43,14 @@ public class Day<DAY_NO_ZERO> : BaseChallenge
         // Do something.
         _total = <DAY_NO_ZERO>;
     }
+
+    public override void ParseInput(string filePath)
+    {
+        base.ParseInput(filePath);
+
+        // Extra parsing...
+    }
+
 }
 '
 
