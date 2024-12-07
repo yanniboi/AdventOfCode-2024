@@ -11,8 +11,8 @@ public class UnitTestDay7
     public void TestExamplePart1()
     {
         var challenge = new Day7();
-        var result = challenge.RunExample(1);
-        result.ShouldBe(3749);
+        challenge.RunExample(1);
+        challenge._longTotal.ShouldBe(3749);
     }
 
     [TestMethod]
@@ -42,7 +42,7 @@ public class UnitTestDay7
     
     [TestMethod]
     [DynamicData(nameof(Test_ApplyOperators_Data), DynamicDataSourceType.Method)]
-    public void Test_ApplyOperators(List<int> parts, List<int> expected)
+    public void Test_ApplyOperators(List<Int64> parts, List<Int64> expected)
     {
         var challenge = new Day7();
         expected.Sort();
@@ -57,13 +57,13 @@ public class UnitTestDay7
         // No obstacle
         yield return new object[]
         {
-            new List<int>() {2,4},
-            new List<int>() {6,8},
+            new List<Int64>() {2,4},
+            new List<Int64>() {6,8},
         };
         yield return new object[]
         {
-            new List<int>() {2,4,6},
-            new List<int>() {12,48,36,14},
+            new List<Int64>() {2,4,6},
+            new List<Int64>() {12,48,36,14},
         };
     }
 }

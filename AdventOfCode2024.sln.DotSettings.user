@@ -3,64 +3,65 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AShouldlyCoreExtensions_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F728b2af7367f29913fa27b17da547131b49c824e9b9b611ae5df747609526_003FShouldlyCoreExtensions_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AThrowHelper_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fc61cc76f205b4535a5b4f40700c07900b2d200_003Fcf_003F5bce75fd_003FThrowHelper_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AThrowHelper_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Fc7477cc1e1704398a4fbaa0d0e71ba1564c00_003Fdb_003F6856782b_003FThrowHelper_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1326008b_002Dbb9b_002D44cb_002D9e84_002D50be714060fa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExamplePart2 #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFiveChallenge.TestExamplePart2&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1326008b_002Dbb9b_002D44cb_002D9e84_002D50be714060fa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExamplePart2 #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFiveChallenge.TestExamplePart2&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1f43aebe_002D469d_002D4789_002Dab1f_002D093638a1a199/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_FixPageOrderChallenge" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_FixPageOrderChallenge&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_ParseInput&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1f43aebe_002D469d_002D4789_002Dab1f_002D093638a1a199/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_FixPageOrderChallenge" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_FixPageOrderChallenge&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_ParseInput&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2b9b4f65_002D70df_002D491c_002D89ca_002D9aaaafd2fb45/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExamplePart1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_GetMiddleOfPage&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_FixPageOrder&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2b9b4f65_002D70df_002D491c_002D89ca_002D9aaaafd2fb45/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExamplePart1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_GetMiddleOfPage&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_FixPageOrder&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4e753855_002D9984_002D4b54_002D98bc_002D74c628c0f8ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExamplePart2 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFiveChallenge.TestExamplePart2&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4e753855_002D9984_002D4b54_002D98bc_002D74c628c0f8ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExamplePart2 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFiveChallenge.TestExamplePart2&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=745a0696_002D0e76_002D4354_002Dbca2_002D35bd312d5611/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test_MoveGuard" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_MoveGuard&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.TestExamplePart1&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.TestExamplePart2&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=745a0696_002D0e76_002D4354_002Dbca2_002D35bd312d5611/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_MoveGuard" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_MoveGuard&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.TestExamplePart1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.TestExamplePart2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.ChallengeTests.UnitTestDay7Challenge.TestChallengePart1&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=be7700a1_002D7959_002D4be2_002D9e6b_002D05d008ee5ed4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UnitTest1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayOne&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayTwo&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayThree&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayThreeChallenge&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayOneChallenge&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayTwoChallenge&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFour&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=be7700a1_002D7959_002D4be2_002D9e6b_002D05d008ee5ed4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UnitTest1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayOne&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayTwo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayThree&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayThreeChallenge&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayOneChallenge&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayTwoChallenge&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFour&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e4187290_002Dd5e5_002D47a9_002D80c2_002D394901b1a2ed/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_FixPageOrder" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_FixPageOrder&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.TestExamplePart2&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_FixPageOrderChallenge&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e4187290_002Dd5e5_002D47a9_002D80c2_002D394901b1a2ed/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_FixPageOrder" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_FixPageOrder&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.TestExamplePart2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.Test_FixPageOrderChallenge&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea31971d_002Dd56b_002D467b_002Da19f_002D70c37e177150/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_ParseInput" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_ParseInput&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_MoveGuard&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea31971d_002Dd56b_002D467b_002Da19f_002D70c37e177150/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test_ParseInput" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_ParseInput&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_MoveGuard&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=efa8ea14_002D7fc4_002D47ff_002Da70f_002D4f6e9d71c15f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestExamplePart2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFiveChallenge.TestExamplePart2&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.TestExamplePart2&lt;/TestId&gt;
-    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_ParseInput&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=efa8ea14_002D7fc4_002D47ff_002Da70f_002D4f6e9d71c15f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestExamplePart2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFiveChallenge.TestExamplePart2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDayFive.TestExamplePart2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::089EC864-4C14-432E-B103-982781ACE812::net8.0::Tests.UnitTestDay6.Test_ParseInput&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

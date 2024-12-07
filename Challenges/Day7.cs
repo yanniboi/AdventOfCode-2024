@@ -1,10 +1,9 @@
-
 namespace AdventOfCode.Challenges;
 
 public class Day7 : BaseChallenge
 {
-    public Dictionary<int, List<int>> _equations = new Dictionary<int, List<int>>();
-    
+    public Dictionary<Int64, List<Int64>> _equations = new Dictionary<Int64, List<Int64>>();
+    public Int64 _longTotal = 0;
     protected override string GetExampleFilePath()
     {
         return Path.Combine(AppContext.BaseDirectory, "day-7/example/input.txt");
@@ -27,11 +26,11 @@ public class Day7 : BaseChallenge
 
             if (outcomes.Contains(equation.Key))
             {
-                _total += equation.Key;
+                _longTotal += equation.Key;
             }
         }
-        
-        // _total = 3749;
+
+        Log($"the result is {_longTotal}");
     }
 
     protected override void SolveStep2()
@@ -40,9 +39,9 @@ public class Day7 : BaseChallenge
         _total = 7;
     }
 
-    public List<int> ApplyOperators(List<int> parts)
+    public List<Int64> ApplyOperators(List<Int64> parts)
     {
-        var progress = new List<int>();
+        var progress = new List<Int64>();
 
         foreach (var part in parts)
         {
@@ -52,7 +51,7 @@ public class Day7 : BaseChallenge
                 continue;
             }
 
-            var newProgress = new List<int>();
+            var newProgress = new List<Int64>();
             foreach (var current in progress)
             {
                 newProgress.Add(current + part);
@@ -61,7 +60,7 @@ public class Day7 : BaseChallenge
 
             progress = newProgress;
         }
-        
+
         progress.Sort();
         return progress;
     }
@@ -73,12 +72,18 @@ public class Day7 : BaseChallenge
         foreach (var line in _rawLines)
         {
             var parts = line.Split(':', StringSplitOptions.TrimEntries);
-            var result = int.Parse(parts[0]);
-            var subparts = parts[1].Split(' ', StringSplitOptions.TrimEntries);
 
-            _equations.Add(result, subparts.Select(x => int.Parse(x)).ToList());
+            try
+            {
+                var result = Int64.Parse(parts[0]);
+                var subparts = parts[1].Split(' ', StringSplitOptions.TrimEntries);
+
+                _equations.Add(result, subparts.Select(x => Int64.Parse(x)).ToList());
+            }
+            catch (OverflowException ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
         }
     }
-
 }
-
