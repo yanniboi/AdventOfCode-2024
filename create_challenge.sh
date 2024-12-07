@@ -79,6 +79,27 @@ public class UnitTestDay<DAY_NO_ZERO>
         var result = challenge.RunExample(2);
         result.ShouldBe(<DAY_NO_ZERO>);
     }
+
+    [TestMethod]
+    [DynamicData(nameof(Test_Method_Data), DynamicDataSourceType.Method)]
+    public void Test_Method(List<Int64> input, List<Int64> expected)
+    {
+        var challenge = new Day7();
+        expected.Sort();
+
+//        var result = challenge.Method(input);
+        input.ShouldBe(expected);
+    }
+
+    public static IEnumerable<object[]> Test_Method_Data()
+    {
+        // No obstacle
+        yield return new object[]
+        {
+            new List<Int64>() {2,4},
+            new List<Int64>() {2,4},
+        };
+    }
 }
 '
 
