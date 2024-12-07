@@ -19,8 +19,8 @@ public class UnitTestDay7
     public void TestExamplePart2()
     {
         var challenge = new Day7();
-        var result = challenge.RunExample(2);
-        result.ShouldBe(7);
+        challenge.RunExample(2);
+        challenge._longTotal.ShouldBe(11387);
     }
     
     [TestMethod]

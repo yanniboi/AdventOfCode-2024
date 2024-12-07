@@ -35,8 +35,21 @@ public class Day7 : BaseChallenge
 
     protected override void SolveStep2()
     {
-        // Do something.
-        _total = 7;
+        // Take equation.
+        // Loop over parts.
+        // Apply both operators.
+        // Check if result is in possible outcomes.
+        foreach (var equation in _equations)
+        {
+            var outcomes = ApplyOperators(equation.Value);
+
+            if (outcomes.Contains(equation.Key))
+            {
+                _longTotal += equation.Key;
+            }
+        }
+
+        Log($"the result is {_longTotal}");
     }
 
     public List<Int64> ApplyOperators(List<Int64> parts)
@@ -56,6 +69,11 @@ public class Day7 : BaseChallenge
             {
                 newProgress.Add(current + part);
                 newProgress.Add(current * part);
+
+                if (_step == 2)
+                {
+                    newProgress.Add(Int64.Parse(current.ToString() + part.ToString()));
+                }
             }
 
             progress = newProgress;
