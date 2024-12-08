@@ -3,6 +3,8 @@ namespace AdventOfCode.Challenges;
 
 public class Day8 : BaseChallenge
 {
+    
+    
     protected override string GetExampleFilePath()
     {
         return Path.Combine(AppContext.BaseDirectory, "day-8/example/input.txt");

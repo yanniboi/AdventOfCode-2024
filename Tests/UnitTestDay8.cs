@@ -24,6 +24,18 @@ public class UnitTestDay8
     }
 
     [TestMethod]
+    public void Test_Parse()
+    {
+        var challenge = new Day8();
+        var path = Path.Combine(AppContext.BaseDirectory, "day-8/example/input.txt");
+        challenge.ParseInput(path);
+
+        challenge._antennas.Count().ShouldBe(2);
+        challenge._antennas[0].Count().ShouldBe(4);
+        challenge._antennas[A].Count().ShouldBe(3);
+    }
+
+    [TestMethod]
     [DynamicData(nameof(Test_Method_Data), DynamicDataSourceType.Method)]
     public void Test_Method(List<Int64> input, List<Int64> expected)
     {
