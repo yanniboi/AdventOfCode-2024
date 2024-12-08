@@ -5,37 +5,22 @@ using Shouldly;
 namespace Tests;
 
 [TestClass]
-public class UnitTestDay8
+public class UnitTestDay9
 {
     [TestMethod]
     public void TestExamplePart1()
     {
-        var challenge = new Day8();
+        var challenge = new Day9();
         var result = challenge.RunExample(1);
-        result.ShouldBe(14);
+        result.ShouldBe(9);
     }
 
     [TestMethod]
     public void TestExamplePart2()
     {
-        var challenge = new Day8();
+        var challenge = new Day9();
         var result = challenge.RunExample(2);
-        result.ShouldBe(34);
-    }
-
-    [TestMethod]
-    public void Test_Parse()
-    {
-        var challenge = new Day8();
-        var path = Path.Combine(AppContext.BaseDirectory, "day-8/example/input.txt");
-        challenge.ParseInput(path);
-
-        challenge._antennas.Count().ShouldBe(2);
-        challenge._antennas['0'].Count().ShouldBe(4);
-        challenge._antennas['A'].Count().ShouldBe(3);
-        
-        challenge.maxX.ShouldBe(11);
-        challenge.maxY.ShouldBe(11);
+        result.ShouldBe(9);
     }
 
     [TestMethod]
