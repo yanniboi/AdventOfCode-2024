@@ -6,8 +6,8 @@ public class Program
 {
     static void Main(string[] args)
     {
-        var challenge = new Day6();
-        var result = challenge.RunExample(1);
+        var challenge = new Day9();
+        var result = challenge.RunChallenge(1);
 
         Console.WriteLine("The answer is: " + result);
     }
